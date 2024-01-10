@@ -17,5 +17,5 @@ if last_dt > 5:
     print(f"Last digit of {number} is {last_dt} and is greater than 5")
 elif last_dt == 0:
     print(f"Last digit of {number} is {last_dt} and is 0")
-else:
+elif ((last_dt < 6) and (last_dt > 0)):
     print(f"Last digit of {number} is {last_dt} and is less than 6 and not 0")
