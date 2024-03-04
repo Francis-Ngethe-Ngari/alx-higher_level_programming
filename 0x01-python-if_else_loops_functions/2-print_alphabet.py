@@ -1,4 +1,5 @@
-#!/usr/bin/python3.
+#!/usr/bin/python3
+
 # Program to print Ascii alphabets, in Lowercase.
 def LowerCase():
 
