@@ -4,7 +4,7 @@ def LowerCase():
 
     for letters in range(97, 123):
 
-        print(chr(letters), end=" ")
+        print("{}".format(chr(letters)), end=" ")
 
 
 LowerCase()
