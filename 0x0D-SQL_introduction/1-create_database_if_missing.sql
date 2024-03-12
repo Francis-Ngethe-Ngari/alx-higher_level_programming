@@ -2,4 +2,4 @@
 -- If it exists it should not through an error.
 -- SELECT and SHOW statements are not allowed.
 
-CREATE database IF NOT EXISTS school_db;
+CREATE database IF NOT EXISTS hbtn_0c_0;
