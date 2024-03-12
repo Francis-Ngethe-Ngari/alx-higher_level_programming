@@ -2,6 +2,6 @@
 -- id column = 89. WHERE statement is used to filter results to
 -- specific requirements.
 
-SELECT *
+SELECT id
 	FROM first_table
 	WHERE id = 89;
