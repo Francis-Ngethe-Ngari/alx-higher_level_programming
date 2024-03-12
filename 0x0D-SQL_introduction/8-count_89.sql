@@ -2,6 +2,6 @@
 -- id column = 89. WHERE statement is used to filter results to
 -- specific requirements.
 
-SELECT id
+SELECT COUNT(id)
 	FROM first_table
-	WHERE id = 89;
+	WHERE (id) = 89;
