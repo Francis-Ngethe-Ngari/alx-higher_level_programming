@@ -8,7 +8,7 @@
 
 - SQL-Like languages can also be used in Relational Data Stream Management Systems (RBMS), or in "Not - Only SQL" NoSQL.
 
-### **Sql comparises of 3 major sub-languages:
+### **Sql comparises of 3 major sub-languages**:
 
 - Data Defination Language (DDL): to create and modify structure of the database.
 
@@ -16,4 +16,4 @@
 
 - Data Control Langauge (DCL): to control access to data stored in databases.
 
-[visit:] [https://en.wikipedia.org/wiki/SQL]
+visit [https://en.wikipedia.org/wiki/SQL] for more information.
