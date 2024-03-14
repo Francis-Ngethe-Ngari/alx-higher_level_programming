@@ -1,0 +1,14 @@
+-- program Uses Foreign key which Links data from
+-- one or more tables.
+
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+USE hbtn_0d_usa;
+CREATE TABLE IF NOT EXISTS cities (
+	id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	state_id INT NOT NULL
+	name VARCHAR (256) NOT NULL,
+	CONSTRAINT fk_states FOREIGN_KEY (state_id),
+	REFERENCES states (id),
+	ON DELETE CASCADE,
+	ON UPDATE CASCADE
+	);
