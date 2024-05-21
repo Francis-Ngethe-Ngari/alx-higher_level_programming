@@ -13,9 +13,9 @@ last_dt_str = n_str[-1]
 # 3. Converting the last string into an integer.
 last_dt = int(last_dt_str)
 
-if last_dt > 5:
+if ((number > 5) and (last_dt > 5)):
     print(f"Last digit of {number} is {last_dt} and is greater than 5")
-elif last_dt == 0:
+elif ((number > 0) and (last_dt == 0)):
     print(f"Last digit of {number} is {last_dt} and is 0")
 elif ((last_dt < 6) and (last_dt > 0)):
     print(f"Last digit of {number} is {last_dt} and is less than 6 and not 0")
