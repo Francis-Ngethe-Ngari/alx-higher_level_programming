@@ -8,7 +8,8 @@ number = random.randint(-10000, 10000)
 last_dt = abs(number) % 10
 
 if last_dt > 5:
-    print(f"Last digit of {number} is {last_dt} and is greater than 5")
+    if number > 0:
+        print(f"Last digit of {number} is {last_dt} and is greater than 5")
 elif last_dt == 0:
     if number > 0:
         print(f"Last digit of {number} is {last_dt} and is 0")
